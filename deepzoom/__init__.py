@@ -58,7 +58,6 @@ DEFAULT_RESIZE_FILTER = PIL.Image.Resampling.LANCZOS
 DEFAULT_IMAGE_FORMAT = "jpg"
 
 RESIZE_FILTERS = {
-    "cubic": PIL.Image.CUBIC,
     "bilinear": PIL.Image.BILINEAR,
     "bicubic": PIL.Image.BICUBIC,
     "nearest": PIL.Image.NEAREST,
